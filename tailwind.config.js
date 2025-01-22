@@ -2,7 +2,24 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        Neutral: {
+          veryDark: "#0D082D",
+          dark: "#4B4869",
+          default: "#8784A5",
+          light: "#D1D0D5",
+          veryLight: "#FFFFFF",
+        },
+        Orange: {
+          dark: "#E1604F",
+          default: "#F57463"
+        }
+      },
+      backgroundImage: {
+        orangeGradient: "linear-gradient(90deg, #F37362 0%, #FFF 100%);"
+      }
+    },
   },
   plugins: [],
 }
