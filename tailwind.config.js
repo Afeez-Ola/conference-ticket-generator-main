@@ -18,6 +18,9 @@ module.exports = {
       },
       backgroundImage: {
         orangeGradient: "linear-gradient(90deg, #F37362 0%, #FFF 100%);"
+      },
+      fontFamily: {
+        Inconsolata: ["Inconsolata", 'serif']
       }
     },
   },

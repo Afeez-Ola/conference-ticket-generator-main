@@ -562,10 +562,6 @@ video {
   visibility: collapse;
 }
 
-.static {
-  position: static;
-}
-
 .relative {
   position: relative;
 }
