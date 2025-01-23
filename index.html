@@ -31,19 +31,28 @@
       </div>
       <div class="upload_section">
         <h3 class="text-xl font-light text-Neutral-veryLight">Upload Avatar</h3>
-        <div class="flex flex-col items-center justify-center gap-2 py-6 my-6 border-2 border-dashed rounded-lg border-Neutral-default upload">
-          <img class="p-2 border border-solid rounded-xl border-Neutral-dark sm:w-1/5" src="/assets/images/icon-upload.svg" alt="icon-upload">
+        <div
+          class="flex flex-col items-center justify-center gap-2 py-6 my-6 border-2 border-dashed rounded-lg border-Neutral-default upload">
+          <img class="p-2 border border-solid rounded-xl border-Neutral-dark sm:w-1/5"
+            src="/assets/images/icon-upload.svg" alt="icon-upload">
           <h3 class="text-sm font-light text-Neutral-light">Drag and drop or click to upload</h3>
         </div>
-        <p class="flex gap-2 text-sm text-Neutral-light"><img src="/assets/images/icon-info.svg" alt="icon-info">Upload your photo (JPG or PNG, max size: 500KB).</p>
+        <p class="flex gap-2 text-sm text-Neutral-light"><img src="/assets/images/icon-info.svg" alt="icon-info">Upload
+          your photo (JPG or PNG, max size: 500KB).</p>
       </div>
-      <form action="">
-        <label for="fullName">Full Name</label>
-        <input type="text" name="fullName" id="fullName">
-        <label for="email">Email Address</label>
-        <input type="text" name="email" id="email" placeholder="example@email.com">
-        <label for="username">GitHub Username</label>
-        <input type="text" name="username" id="username" placeholder="@yourusername">
+      <form class="flex flex-col items-start justify-center gap-6 mt-6" action="">
+        <div class="flex flex-col w-full gap-4 field_group">
+          <label class="text-xl font-light text-Neutral-veryLight" for="fullName">Full Name</label>
+          <input class="py-4 bg-transparent border-2 solid text-Neutral-light border-Neutral-default rounded-2xl" type="text" name="fullName" id="fullName">
+        </div>
+        <div class="flex flex-col w-full gap-4 field_group">
+          <label class="text-xl font-light text-Neutral-veryLight"  for="email">Email Address</label>
+          <input class="py-4 bg-transparent border-2 solid text-Neutral-light border-Neutral-default rounded-2xl placeholder:px-2" type="text" name="email" id="email" placeholder="example@email.com">
+        </div>
+        <div class="flex flex-col w-full gap-4 field_group">
+          <label class="text-xl font-light text-Neutral-veryLight"  for="username">GitHub Username</label>
+          <input class="py-4 bg-transparent border-2 solid text-Neutral-light border-Neutral-default rounded-2xl placeholder:px-2" type="text" name="username" id="username" placeholder="@yourusername">
+        </div>
         <button type="submit">Generate My Ticket</button>
       </form>
     </div>
