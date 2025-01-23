@@ -648,6 +648,14 @@ video {
   right: 0.5rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .block {
   display: block;
 }
@@ -668,6 +676,14 @@ video {
   display: none;
 }
 
+.w-11\/12 {
+  width: 91.666667%;
+}
+
+.w-11 {
+  width: 2.75rem;
+}
+
 .border-collapse {
   border-collapse: collapse;
 }
@@ -678,6 +694,14 @@ video {
 
 .resize {
   resize: both;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .border {
