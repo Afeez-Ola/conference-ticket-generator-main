@@ -17,7 +17,11 @@ module.exports = {
         }
       },
       backgroundImage: {
-        orangeGradient: "linear-gradient(90deg, #F37362 0%, #FFF 100%);"
+        orangeGradient: "linear-gradient(90deg, #F37362 0%, #FFF 100%);",
+        blueGradientMobile: "url('/assets/images/background-mobile.png')",
+          blueGradientTablet: "url('/assets/images/background-tablet.png')",
+          blueGradientDesktop: "url('/assets/images/background-desktop.png')"
+        
       },
       fontFamily: {
         Inconsolata: ["Inconsolata", 'serif']
