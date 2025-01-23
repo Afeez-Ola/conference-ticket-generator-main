@@ -39,12 +39,12 @@
               src="/assets/images/icon-upload.svg" alt="icon-upload">
             <h3 class="text-sm font-light text-Neutral-light">Drag and drop or click to upload</h3>
           </div>
-          <p class="flex hidden gap-2 mb-4 text-sm error text-Orange-dark"><img src="/assets/images/icon-info.svg" alt="icon-info">File too large. Please upload a photo under 500KB.</p>
+          <p id="uploadError" class="flex hidden gap-2 mb-4 text-sm error text-Orange-dark"><img src="/assets/images/icon-info.svg" alt="icon-info">File too large. Please upload a photo under 500KB.</p>
           <a class="flex gap-2 text-sm text-Neutral-light"><img src="/assets/images/icon-info.svg"
               alt="icon-info">Upload
             your photo (JPG or PNG, max size: 500KB).</a>
         </div>
-        <form class="flex flex-col items-start justify-center gap-6 pb-8 mt-6" action="">
+        <form id="form" class="flex flex-col items-start justify-center gap-6 pb-8 mt-6" action="">
           <div class="flex flex-col w-full gap-4 field_group">
             <label class="text-xl font-light text-Neutral-veryLight" for="fullName">Full Name</label>
             <input class="py-4 bg-transparent border-2 solid hover:cursor-pointer text-Neutral-light border-Neutral-default rounded-2xl"
@@ -55,7 +55,7 @@
             <input
               class="py-4 bg-transparent border-2 solid hover:cursor-pointer text-Neutral-light border-Neutral-default rounded-2xl placeholder:px-2"
               type="text" name="email" id="email" placeholder="example@email.com">
-              <p class="flex hidden gap-2 mb-4 text-sm error text-Orange-dark"><img src="/assets/images/icon-info.svg" alt="icon-info">Please enter a valid email address.</p>  
+              <p id="emailError" class="flex hidden gap-2 mb-4 text-sm error text-Orange-dark"><img src="/assets/images/icon-info.svg" alt="icon-info">Please enter a valid email address.</p>  
           </div>
           <div class="flex flex-col w-full gap-4 field_group">
             <label class="text-xl font-light text-Neutral-veryLight" for="username">GitHub Username</label>
