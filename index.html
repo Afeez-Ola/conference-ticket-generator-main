@@ -4,34 +4,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Conference ticket generator</title>
   <link rel="stylesheet" href="css/output.css">
 </head>
 
-<body class="bg-center bg-no-repeat bg-cover bg-blueGradientMobile">
+<body class="bg-center bg-no-repeat bg-blueGradientMobile font-Inconsolata">
 
   <div class="main">
     <div class="flex top_background">
-      <img class="absolute -left-8 -top-8" src="./assets/images/pattern-circle.svg" alt="pattern-circle">
-      <img class="absolute right-2" src="./assets/images/pattern-squiggly-line-top.svg" alt="pattern-squiggly-line-top">
+      <img class="absolute -left-8 -top-8 max-sm:w-1/2" src="./assets/images/pattern-circle.svg" alt="pattern-circle">
+      <img class="absolute right-0 top-6 max-sm:w-1/2" src="./assets/images/pattern-squiggly-line-top.svg"
+        alt="pattern-squiggly-line-top">
     </div>
-    <div class="container flex items-center justify-center w-11/12">
-      <div class="flex items-center justify-center mt-12 nav">
+    <div class="container flex-row items-center justify-center w-11/12 m-auto">
+      <div class="flex items-center justify-center mt-12 mb-12 nav">
         <img src="/assets/images/logo-full.svg" alt="">
+      </div>
+
+      <div class="flex flex-col items-center justify-center gap-5 text-center hero_text">
+        <h2 class="text-3xl font-extrabold text-Neutral-veryLight">Your Journey to Coding Conf 2025 Starts Here!</h2>
+        <p class="text-xl font-medium text-Neutral-light">Secure your spot at next year's biggest coding conference.</p>
+      </div>
+      <div class="upload_section">
+        <h3>Upload Avatar</h3>
+        <div class="upload">
+          <img src="/assets/images/icon-upload.svg" alt="icon-upload">
+        </div>
       </div>
     </div>
 
   </div>
 
-  Your Journey to Coding Conf 2025 Starts Here!
 
-  Secure your spot at next year's biggest coding conference.
 
-  Upload Avatar
+
+
+  
   Drag and drop or click to upload
   Upload your photo (JPG or PNG, max size: 500KB).
 
