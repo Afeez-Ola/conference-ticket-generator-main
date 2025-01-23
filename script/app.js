@@ -19,6 +19,16 @@ imageInput.addEventListener('change', function(event) {
           console.log(imagePreview);
           uploadButtons.style.display = "block";
           uploadNote.style.display = "none";
+          const fileSize = (file.size/1024).toFixed(2);
+          console.log(fileSize);
+          if (fileSize > 500) {
+            uploadErrorElement.style.display = "block";
+            form.reset();
+            imagePreview.src = "/assets/images/icon-upload.svg";
+            uploadButtons.style.display = "none";
+            uploadNote.style.display = "block";
+          }
+
         };
 
         reader.readAsDataURL(file); 
