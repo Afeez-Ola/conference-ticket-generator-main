@@ -7,6 +7,9 @@ const imagePreview = document.getElementById("imagePreview")
 const uploadButtons = document.getElementById("uploadButtons");
 const uploadNote = document.getElementById("upload_note");
 
+const changeButton = document.getElementById("changeButton");
+const removeButton = document.getElementById("removeButton");
+
 const uploadErrorElement = document.getElementById("uploadError");
 const emailErrorElement = document.getElementById("emailError");
 
@@ -28,10 +31,19 @@ imageInput.addEventListener('change', function(event) {
             uploadButtons.style.display = "none";
             uploadNote.style.display = "block";
           }
-
         };
-
         reader.readAsDataURL(file); 
       }
     });
+
+changeButton.addEventListener('click', function() {
+  imageInput.click();
+})
+
+removeButton.addEventListener('click', function() {
+  form.reset();
+  imagePreview.src = "/assets/images/icon-upload.svg";
+  uploadButtons.style.display = "none";
+  uploadNote.style.display = "block";
+})
 
