@@ -678,6 +678,10 @@ video {
   margin-top: 2.5rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .block {
   display: block;
 }
@@ -925,6 +929,11 @@ video {
 .text-Neutral-veryLight {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-Orange-dark {
+  --tw-text-opacity: 1;
+  color: rgb(225 96 79 / var(--tw-text-opacity, 1));
 }
 
 .underline {
