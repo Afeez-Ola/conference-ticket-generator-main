@@ -632,6 +632,22 @@ video {
   right: 1rem;
 }
 
+.-left-8 {
+  left: -2rem;
+}
+
+.-top-6 {
+  top: -1.5rem;
+}
+
+.-top-8 {
+  top: -2rem;
+}
+
+.right-2 {
+  right: 0.5rem;
+}
+
 .block {
   display: block;
 }
