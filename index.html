@@ -12,9 +12,9 @@
   <link rel="stylesheet" href="css/output.css">
 </head>
 
-<body class="bg-center bg-no-repeat bg-blueGradientMobile font-Inconsolata">
+<body class="p-0 m-0 bg-center bg-no-repeat bg-cover bg-blueGradientMobile font-Inconsolata">
 
-  <div class="main">
+  <div class="main ">
     <div class="flex top_background">
       <img class="absolute -left-8 -top-8 max-sm:w-1/2" src="./assets/images/pattern-circle.svg" alt="pattern-circle">
       <img class="absolute right-0 top-6 max-sm:w-1/2" src="./assets/images/pattern-squiggly-line-top.svg"
@@ -26,7 +26,7 @@
       </div>
 
       <div class="flex flex-col items-center justify-center gap-5 my-12 text-center hero_text">
-        <h2 class="text-3xl font-extrabold text-Neutral-veryLight">Your Journey to Coding Conf 2025 Starts Here!</h2>
+        <h2 class="text-3xl font-extrabold md:text-6xl md:leading-[4.5rem] text-Neutral-veryLight">Your Journey to Coding Conf 2025 Starts Here!</h2>
         <p class="text-xl font-medium text-Neutral-light">Secure your spot at next year's biggest coding conference.</p>
       </div>
       <div class="upload_section">
@@ -53,8 +53,9 @@
           <label class="text-xl font-light text-Neutral-veryLight"  for="username">GitHub Username</label>
           <input class="py-4 bg-transparent border-2 solid text-Neutral-light border-Neutral-default rounded-2xl placeholder:px-2" type="text" name="username" id="username" placeholder="@yourusername">
         </div>
-        <button type="submit">Generate My Ticket</button>
+        <button class="w-full py-4 text-xl font-extrabold border-2 bg-Orange-default border-Orange-default text-Neutral-veryDark rounded-2xl" type="submit">Generate My Ticket</button>
       </form>
+      <img class="absolute left-0" src="/assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg" alt="pattern-squiggly-line-bottom-mobile-tablet">
     </div>
   </div>
 
@@ -63,21 +64,16 @@
 
   <!-- Generated tickets starts -->
 
-  Congrats,
-  <!-- Full Name -->! Your ticket is ready.
+  <!-- Congrats, -->
+  <!-- Full Name! Your ticket is ready. -->
 
-  We've emailed your ticket to
-  <!-- Email Address --> and will send updates in the run up to the event.
+  <!-- We've emailed your ticket to -->
+  <!-- Email Address and will send updates in the run up to the event. -->
 
-  Coding Conf
-  Jan 31, 2025 / Austin, TX
+  <!-- Coding Conf
+  Jan 31, 2025 / Austin, TX -->
 
   <!-- Generated tickets ends -->
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 
 </html>
