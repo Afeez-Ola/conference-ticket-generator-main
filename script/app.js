@@ -5,3 +5,4 @@ const userName = document.getElementById("username");
 
 const uploadErrorElement = document.getElementById("uploadError");
 const emailErrorElement = document.getElementById("emailError");
+

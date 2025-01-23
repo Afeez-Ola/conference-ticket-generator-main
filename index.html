@@ -33,12 +33,13 @@
       <div class="max-w-xl m-auto bottom_section md:w-2/3">
         <div class="upload_section">
           <h3 class="text-xl font-light text-Neutral-veryLight">Upload Avatar</h3>
-          <div
+          <label
             class="flex flex-col items-center justify-center gap-2 py-6 mt-6 mb-4 border-2 border-dashed rounded-lg hover:bg-Neutral-dark hover:cursor-pointer border-Neutral-default upload">
+            <input class="hidden" type="file" accept="image/*" alt="">
             <img class="p-2 border border-solid rounded-xl border-Neutral-dark sm:w-1/5"
               src="/assets/images/icon-upload.svg" alt="icon-upload">
             <h3 class="text-sm font-light text-Neutral-light">Drag and drop or click to upload</h3>
-          </div>
+          </label>
           <p id="uploadError" class="flex hidden gap-2 mb-4 text-sm error text-Orange-dark"><img src="/assets/images/icon-info.svg" alt="icon-info">File too large. Please upload a photo under 500KB.</p>
           <a class="flex gap-2 text-sm text-Neutral-light"><img src="/assets/images/icon-info.svg"
               alt="icon-info">Upload
@@ -91,6 +92,7 @@
   Jan 31, 2025 / Austin, TX -->
 
   <!-- Generated tickets ends -->
+   <script src="/script/app.js"></script>
 </body>
 
 </html>
