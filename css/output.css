@@ -945,6 +945,25 @@ video {
   padding-right: 0.5rem;
 }
 
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
+.hover\:bg-Neutral-default:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(135 132 165 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-Neutral-light:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 208 213 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-Neutral-dark:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 72 105 / var(--tw-bg-opacity, 1));
+}
+
 @media not all and (min-width: 640px) {
   .max-sm\:w-1\/2 {
     width: 50%;
