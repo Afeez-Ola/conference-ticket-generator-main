@@ -67,8 +67,8 @@ form.addEventListener('submit', function (event) {
  }
 
  if (errors.length > 0) {
-  output.style.color = 'red';
-  output.textContent = errors.join(' ');
+  emailErrorElement.style.display = 'block';
+  // output.textContent = errors.join(' ');
  } else {
   output.style.color = 'green';
   output.textContent = 'Validation successful!';
