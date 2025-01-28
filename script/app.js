@@ -12,6 +12,7 @@ const removeButton = document.getElementById('removeButton');
 
 const uploadErrorElement = document.getElementById('uploadError');
 const emailErrorElement = document.getElementById('emailError');
+const usernameError = document.getElementById('usernameError');
 
 imageInput.addEventListener('change', function (event) {
  const file = event.target.files[0];
@@ -60,15 +61,18 @@ form.addEventListener('submit', function (event) {
 
  if (!emailRegex.test(emailValue)) {
   errors.push('Invalid email format.');
+  emailErrorElement.style.display = 'block';
+
  }
  
  if (!usernameRegex.test(usernameValue)) {
   errors.push("Username must start with '@' and contain no spaces.");
+  usernameError.style.display = 'block';
+
  }
 
  if (errors.length > 0) {
   emailErrorElement.style.display = 'block';
-  // output.textContent = errors.join(' ');
  } else {
   output.style.color = 'green';
   output.textContent = 'Validation successful!';
