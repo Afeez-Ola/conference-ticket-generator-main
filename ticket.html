@@ -1,61 +1,76 @@
  <!DOCTYPE html>
-<html lang="en">
+ <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
-  <title>Frontend Mentor | Conference ticket generator</title>
-  <link rel="stylesheet" href="css/output.css">
-</head>
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+   <title>Frontend Mentor | Conference ticket generator</title>
+   <link rel="stylesheet" href="css/output.css">
 
-<body class="p-0 m-0 bg-center bg-no-repeat bg-cover bg-blueGradientMobile font-Inconsolata">
+   <style>
+     .bg-gradient-to-r {
+       background-image: linear-gradient(to right, #F57463, #FFFFFF);
+       -webkit-background-clip: text;
+       background-clip: text;
+       color: transparent;
+     }
+   </style>
+ </head>
 
-  <div class="bg-no-repeat main bg-line">
-    <div class="flex top_background">
-      <img class="absolute -left-8 -top-8 max-sm:w-1/2" src="./assets/images/pattern-circle.svg" alt="pattern-circle">
-      <img class="absolute right-0 top-6 max-sm:w-1/2" src="./assets/images/pattern-squiggly-line-top.svg"
-        alt="pattern-squiggly-line-top">
-    </div>
-    <div class="container flex-row items-center justify-center w-11/12 m-auto">
-      <div class="flex items-center justify-center mt-12 nav">
-        <img src="/assets/images/logo-full.svg" alt="">
-      </div>
+ <body class="p-0 m-0 bg-center bg-no-repeat bg-cover bg-blueGradientMobile font-Inconsolata">
 
-      <div class="flex flex-col items-center justify-center gap-5 my-12 text-center hero_text">
-        <h2 class="text-3xl font-extrabold md:text-6xl max-w-4xl md:leading-[4.5rem] text-Neutral-veryLight">Congrats, <span>Jonatan Kristof</span>! Your ticket is ready.</h2>
-        <p class="text-xl font-light md:tracking-wider text-Neutral-light">We've emailed your ticket to <span>jonatan@email.com</span>  and will send updates in the run up to the event.</p>
-      </div>
-      <div class="max-w-xl m-auto bottom_section md:w-2/3">
-        <div class="upload_section">
-          <img class=""
-              src="/assets/images/pattern-ticket.svg" alt="icon-upload">
-        </div>
-        
-      </div>
+   <div class="bg-no-repeat main bg-line">
+     <div class="flex top_background">
+       <img class="absolute -left-8 -top-8 max-sm:w-1/2" src="./assets/images/pattern-circle.svg" alt="pattern-circle">
+       <img class="absolute right-0 top-6 max-sm:w-1/2" src="./assets/images/pattern-squiggly-line-top.svg"
+         alt="pattern-squiggly-line-top">
+     </div>
+     <div class="container flex-row items-center justify-center w-11/12 m-auto">
+       <div class="flex items-center justify-center mt-12 nav">
+         <img src="/assets/images/logo-full.svg" alt="">
+       </div>
 
-      
-    </div>
-  </div>
+       <div class="flex flex-col items-center justify-center gap-5 my-12 text-center hero_text">
+         <h2 class="text-3xl font-extrabold md:text-6xl max-w-4xl md:leading-[4.5rem] text-Neutral-veryLight">
+           Congrats, <span
+             class="inline-block bg-gradient-to-r from-[#F57463] to-[#FFFFFF] bg-clip-border text-transparent">
+             Jonatan Kristof
+           </span>! Your ticket is ready.
+         </h2>
+         <p class="w-2/5 text-xl font-light md:tracking-wider text-Neutral-light">We've emailed your ticket to
+           <span>jonatan@email.com</span> and will send updates in the run up to the event.
+         </p>
+       </div>
+       <div class="max-w-xl m-auto bottom_section md:w-2/3">
+         <div class="upload_section">
+           <img class="" src="/assets/images/pattern-ticket.svg" alt="icon-upload">
+         </div>
+
+       </div>
 
 
-  <!-- Form ends -->
+     </div>
+   </div>
 
-  <!-- Generated tickets starts -->
 
-  <!-- Congrats, -->
-  <!-- Full Name! Your ticket is ready. -->
+   <!-- Form ends -->
 
-  <!-- We've emailed your ticket to -->
-  <!-- Email Address and will send updates in the run up to the event. -->
+   <!-- Generated tickets starts -->
 
-  <!-- Coding Conf
+   <!-- Congrats, -->
+   <!-- Full Name! Your ticket is ready. -->
+
+   <!-- We've emailed your ticket to -->
+   <!-- Email Address and will send updates in the run up to the event. -->
+
+   <!-- Coding Conf
   Jan 31, 2025 / Austin, TX -->
 
-  <!-- Generated tickets ends -->
-</body>
+   <!-- Generated tickets ends -->
+ </body>
 
-</html>
+ </html>

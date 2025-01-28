@@ -13,7 +13,8 @@ module.exports = {
         },
         Orange: {
           dark: "#E1604F",
-          default: "#F57463"
+          default: "#F57463",
+          gradient: "linear-gradient(90deg, #F37362 0%, #FF8A75 100%);",
         }
       },
       backgroundImage: {
