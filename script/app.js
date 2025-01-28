@@ -58,16 +58,13 @@ form.addEventListener('submit', function (event) {
 
  let errors = [];
 
-
  if (!emailRegex.test(emailValue)) {
   errors.push('Invalid email format.');
  }
-
  
  if (!usernameRegex.test(usernameValue)) {
   errors.push("Username must start with '@' and contain no spaces.");
  }
-
 
  if (errors.length > 0) {
   output.style.color = 'red';
