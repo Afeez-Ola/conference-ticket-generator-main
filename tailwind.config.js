@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html"],
+  content: [
+    './index.html',
+    './ticket.html',
+    '**/*.html'
+  ],
   theme: {
     extend: {
       colors: {
@@ -20,10 +24,10 @@ module.exports = {
       backgroundImage: {
         orangeGradient: "linear-gradient(90deg, #F37362 0%, #FFF 100%);",
         blueGradientMobile: "url('/assets/images/background-mobile.png')",
-          blueGradientTablet: "url('/assets/images/background-tablet.png')",
-          blueGradientDesktop: "url('/assets/images/background-desktop.png')",
-          line: "url('/assets/images/pattern-lines.svg')"
-        
+        blueGradientTablet: "url('/assets/images/background-tablet.png')",
+        blueGradientDesktop: "url('/assets/images/background-desktop.png')",
+        line: "url('/assets/images/pattern-lines.svg')"
+
       },
       fontFamily: {
         Inconsolata: ["Inconsolata", 'serif']
@@ -32,4 +36,3 @@ module.exports = {
   },
   plugins: [],
 }
-
