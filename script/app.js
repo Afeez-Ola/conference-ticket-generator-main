@@ -53,6 +53,7 @@ form.addEventListener('submit', function (event) {
 
  const emailValue = email.value.trim();
  const usernameValue = userName.value.trim();
+ console.log(emailValue, usernameValue);
 
  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; 
  const usernameRegex = /^@[^\s]+$/; 
@@ -62,19 +63,17 @@ form.addEventListener('submit', function (event) {
  if (!emailRegex.test(emailValue)) {
   errors.push('Invalid email format.');
   emailErrorElement.style.display = 'block';
-
  }
  
  if (!usernameRegex.test(usernameValue)) {
   errors.push("Username must start with '@' and contain no spaces.");
   usernameError.style.display = 'block';
-
  }
 
  if (errors.length > 0) {
   emailErrorElement.style.display = 'block';
  } else {
-  output.style.color = 'green';
-  output.textContent = 'Validation successful!';
+  emailErrorElement.style.display = 'none';
+  usernameError.style.display = 'none';
  }
 });
