@@ -5,11 +5,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
 
-@base {
+/* @base {
   .bg-gradient-to-r {
     background-image: linear-gradient(to right, #F57463, #FFFFFF);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
-}
+} */
+
+.bg-gradient-to-r {
+    background-image: linear-gradient(to right, #F57463, #FFFFFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
