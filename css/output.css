@@ -669,6 +669,10 @@ video {
   width: 100%;
 }
 
+.w-4\/6 {
+  width: 66.666667%;
+}
+
 .max-w-4xl {
   max-width: 56rem;
 }
@@ -889,15 +893,6 @@ video {
 .text-transparent {
   color: transparent;
 }
-
-/* @base {
-  .bg-gradient-to-r {
-    background-image: linear-gradient(to right, #F57463, #FFFFFF);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-  }
-} */
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, #F57463, #FFFFFF);
