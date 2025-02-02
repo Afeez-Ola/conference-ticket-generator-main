@@ -867,6 +867,16 @@ video {
   line-height: 1.5rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-extrabold {
   font-weight: 800;
 }
@@ -877,6 +887,10 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .text-Neutral-light {
@@ -906,6 +920,11 @@ video {
 
 .text-transparent {
   color: transparent;
+}
+
+.text-Neutral-default {
+  --tw-text-opacity: 1;
+  color: rgb(135 132 165 / var(--tw-text-opacity, 1));
 }
 
 .bg-gradient-to-r {
