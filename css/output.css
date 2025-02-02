@@ -984,6 +984,10 @@ video {
   letter-spacing: 1.2rem;
 }
 
+.tracking-\[0\.5rem\] {
+  letter-spacing: 0.5rem;
+}
+
 .text-Neutral-light {
   --tw-text-opacity: 1;
   color: rgb(209 208 213 / var(--tw-text-opacity, 1));
