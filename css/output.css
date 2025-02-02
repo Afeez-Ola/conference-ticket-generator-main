@@ -669,10 +669,6 @@ video {
   width: 100%;
 }
 
-.w-4\/6 {
-  width: 66.666667%;
-}
-
 .max-w-4xl {
   max-width: 56rem;
 }
@@ -784,6 +780,10 @@ video {
 
 .bg-line {
   background-image: url('/assets/images/pattern-lines.svg');
+}
+
+.bg-tickets {
+  background-image: url('/assets/images/pattern-ticket.svg');
 }
 
 .from-\[\#F57463\] {

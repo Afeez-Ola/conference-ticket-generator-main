@@ -26,7 +26,8 @@ module.exports = {
         blueGradientMobile: "url('/assets/images/background-mobile.png')",
         blueGradientTablet: "url('/assets/images/background-tablet.png')",
         blueGradientDesktop: "url('/assets/images/background-desktop.png')",
-        line: "url('/assets/images/pattern-lines.svg')"
+        line: "url('/assets/images/pattern-lines.svg')",
+        tickets: "url('/assets/images/pattern-ticket.svg')",
 
       },
       fontFamily: {
