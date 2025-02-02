@@ -636,6 +636,18 @@ video {
   top: 17;
 }
 
+.left-\[16\.5rem\] {
+  left: 16.5rem;
+}
+
+.top-\[17rem\] {
+  top: 17rem;
+}
+
+.top-\[18rem\] {
+  top: 18rem;
+}
+
 .m-0 {
   margin: 0px;
 }
